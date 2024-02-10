@@ -6,18 +6,60 @@ body {
 
 header {
     text-align: center;
-    height: 300px;
+    color: #FFF9D6;
+    width: auto;
+    height: 190px;
+    background-color: #272838;
 }
 
-p.heading {
+header p {
+    padding-top: 25px;
     margin-bottom: 5px;
 }
 
 #state {
-    margin: 5px;
+    margin-top: 5px;
     font-size: 90px;
     font-family: 'Style Script', cursive;
     font-style: italic;
+}
+
+/* nav {
+    background-color: #3ab795;
+    padding: 50px;
+} */
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3ab795;
+}
+
+li.nav {
+    float: left;
+}
+
+li.nav a {
+    text-decoration: none;
+    padding: 15px 30px;
+    text-align: center;
+    display: block;
+    /* for mobile? -- 
+    display: inline-block;
+    top: 50%;
+    width: 100%; */
+}
+
+li.nav a:link, a:visited {
+    color: #272838;
+}
+
+/* a:hover requirement */
+li.nav a:hover {
+    background-color: #FFF9D6;
+    color: #f96d4d;
 }
 
 img {

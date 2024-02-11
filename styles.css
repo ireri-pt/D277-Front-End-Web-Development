@@ -39,13 +39,15 @@ nav ul {
 
 li.nav {
     float: left;
+    width: 20%;
 }
 
 li.nav a {
     text-decoration: none;
     padding: 15px 30px;
     text-align: center;
-    display: block;
+    display: flex;
+    justify-content: center;
     /* for mobile? -- 
     display: inline-block;
     top: 50%;

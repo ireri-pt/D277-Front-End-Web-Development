@@ -59,7 +59,7 @@ li.nav a {
     width: 100%; */
 }
 
-li.nav a:link, a:visited {
+li.nav a:link, li.nav a:visited {
     color: #272838;
     border-bottom: 10px solid #3ab795;
 }
@@ -80,6 +80,11 @@ li.nav a:hover {
     100%    {border-bottom: 10px solid #f96d4d;}
 }
 
+section {
+    width: 65%;
+    float: left;
+}
+
 /*  element selector */
 img {
     max-width: 100%;
@@ -87,7 +92,29 @@ img {
     height: auto;
 }
 
+a:link, a:visited {
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #3ab795;
+}
+
 aside {
     background-color: #FFF9D6;
-    box-shadow: 1px;
+    float: left;
+    width: 35%;
+}
+
+.flag {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+img.flag {
+    height: auto;
+    display: block;
 }

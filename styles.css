@@ -39,6 +39,10 @@ nav {
     display: flex;
     justify-content: center;
     text-align: center;
+    box-shadow: 0 5px 5px -2px rgba(0,0,0,0.2);
+    position: sticky;
+    top: 0;
+    z-index: 2;
 }
 
 nav a {
@@ -63,6 +67,7 @@ nav a:link, nav a:visited {
 nav a:hover {
     background-color: #FFF9D6;
     color: #f96d4d;
+    text-decoration: none;
     border-bottom: 5px solid #f96d4d;
     animation: hoverborder .2s 1 ease-in;
 }
@@ -81,7 +86,18 @@ nav a:hover {
 
 section {
     width: 70%;
-    margin: 10px;
+    margin: 10px 30px;
+}
+
+figure {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    max-width: 600px;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 14px;
+    background-color: white;
 }
 
 /*  element selector */
@@ -98,24 +114,38 @@ a:link, a:visited {
 
 a:hover {
     text-decoration: underline;
-    color: #3ab795;
+    color: #f96d4d;
 }
 
 aside {
     background-color: #FFF9D6;
     /* float property to position element to the side of another */
     float: right;
-    width: 30%;
-    padding: 20px;
+    width: 25%;
+    padding: 30px;
+    /* relative positioning in at least one area of the web page */
+    position: relative;
+    z-index: 1;
+    box-shadow: 5px 0 10px -1px rgba(0,0,0,0.19) inset;
 }
 
-.flag {
+figure.flag {
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
 }
 
 img.flag {
     height: auto;
     display: block;
+}
+
+footer {
+    color: #FFF9D6;
+    width: auto;
+    height: 190px;
+    background-color: #272838;
+    position: relative;
+    z-index: 2;
+    box-shadow: 0 -5px 5px -1px rgba(0,0,0,0.2);
 }

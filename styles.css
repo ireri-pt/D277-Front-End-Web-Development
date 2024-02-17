@@ -86,7 +86,13 @@ nav a:hover {
 
 section {
     width: 70%;
-    margin: 10px 30px;
+    margin: 50px;
+}
+
+section h2 {
+    margin-top: 50px;
+    padding: 5px 0;
+    border-bottom: 1px solid #eaecf0;
 }
 
 figure {
@@ -117,27 +123,30 @@ a:hover {
     color: #f96d4d;
 }
 
-aside {
-    background-color: #FFF9D6;
-    /* float property to position element to the side of another */
-    float: right;
-    width: 25%;
-    padding: 30px;
-    /* relative positioning in at least one area of the web page */
-    position: relative;
-    z-index: 1;
-    box-shadow: 5px 0 10px -1px rgba(0,0,0,0.19) inset;
+p.flag {
+    text-align: right;
 }
 
 figure.flag {
     width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+    float: right;
 }
 
 img.flag {
     height: auto;
     display: block;
+}
+
+aside {
+    background-color: #FFF9D6;
+    /* float property to position element to the side of another */
+    float: right;
+    width: 25%;
+    padding: 40px;
+    /* relative positioning in at least one area of the web page */
+    position: relative;
+    z-index: 1;
+    box-shadow: 5px 0 10px -1px rgba(0,0,0,0.19) inset;
 }
 
 footer {

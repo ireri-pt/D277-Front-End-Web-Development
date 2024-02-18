@@ -86,7 +86,10 @@ nav a:hover {
 
 section {
     width: 70%;
-    margin: 50px;
+    margin-top: 7px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 section h2 {
@@ -95,9 +98,15 @@ section h2 {
     border-bottom: 1px solid #eaecf0;
 }
 
+section h3 {
+    margin-top: 50px;
+}
+
 figure {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     max-width: 600px;
+    margin-top: 30px;
+    margin-bottom: 40px;
 }
 
 figcaption {
@@ -130,6 +139,7 @@ p.flag {
 figure.flag {
     width: 80%;
     float: right;
+    margin-top: 0;
 }
 
 img.flag {

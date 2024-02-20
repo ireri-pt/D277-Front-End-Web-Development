@@ -148,7 +148,6 @@ img.flag {
 }
 
 aside {
-    background-color: #FFF9D6;
     /* float property to position element to the side of another */
     float: right;
     width: 25%;
@@ -156,7 +155,16 @@ aside {
     /* relative positioning in at least one area of the web page */
     position: relative;
     z-index: 1;
-    box-shadow: 5px 0 10px -1px rgba(0,0,0,0.19) inset;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+aside div {
+    margin: 2rem 0;
+    padding: 1rem 2rem;
+    border: 1px solid #f96d4d;
+    border-radius: 12px;
 }
 
 footer {

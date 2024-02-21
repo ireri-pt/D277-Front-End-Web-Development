@@ -168,11 +168,28 @@ aside div {
 }
 
 footer {
-    color: #FFF9D6;
     width: auto;
-    height: 190px;
+    height: 8rem;
     background-color: #272838;
+    /* relative positioning in at least one area of the web page */
     position: relative;
     z-index: 2;
     box-shadow: 0 -5px 5px -1px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+footer p {
+    padding: 1rem 0;
+    margin: 0;
+    color: #FFF9D6;
+}
+
+footer p a:link, footer p a:visited {
+    text-decoration: none;
+    color: #3ab795;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+    color: #f96d4d;
 }

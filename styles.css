@@ -163,13 +163,14 @@ aside div {
 
 footer {
     width: auto;
-    height: 8rem;
+    height: 10rem;
     background-color: #272838;
     /* relative positioning in at least one area of the web page */
     position: relative;
     z-index: 2;
     box-shadow: 0 -5px 5px -1px rgba(0,0,0,0.2);
     text-align: center;
+    padding-top: 2rem;
 }
 
 footer p {

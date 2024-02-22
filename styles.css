@@ -16,6 +16,12 @@ header {
     background-color: #272838;
 }
 
+.city-header {
+    margin: 0;
+    padding-top: 1rem;
+    font-size: 1.1rem;
+}
+
 .page-name {
     margin: auto;
     font-size: 5rem;
@@ -24,7 +30,7 @@ header {
 }
 
 #nickname {
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     margin: 0;
 }
 
@@ -95,7 +101,7 @@ section h3 {
 
 figure {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    max-width: 35rem;
+    width: 800px;
     margin-top: 30px;
     margin-bottom: 40px;
 }
@@ -104,6 +110,10 @@ figcaption {
     text-align: center;
     font-size: 0.75rem;
     background-color: white;
+}
+
+figure.city-img {
+    width: 68rem;
 }
 
 /*  element selector */
@@ -127,7 +137,7 @@ p.flag {
 }
 
 figure.flag {
-    width: 80%;
+    max-width: 32rem;
     float: right;
     margin-top: 0;
 }

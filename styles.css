@@ -102,24 +102,36 @@ section h3 {
 figure {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     width: 800px;
+    height: auto;
     margin-top: 30px;
     margin-bottom: 40px;
+    position: relative;
 }
 
 figcaption {
     text-align: center;
     font-size: 0.75rem;
-    background-color: white;
+    background-color: #FFF9D6;
+    width: 50%;
+    /* absolute positioning */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2px;
 }
 
 figure.city-img {
-    width: 68rem;
+    width: 60rem;
 }
 
 /*  element selector */
 img {
     max-width: 100%;
     height: auto;
+    display: block;
 }
 
 a:link, a:visited {
@@ -140,11 +152,6 @@ figure.flag {
     max-width: 32rem;
     float: right;
     margin-top: 0;
-}
-
-img.flag {
-    height: auto;
-    display: block;
 }
 
 aside {

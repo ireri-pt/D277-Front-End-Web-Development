@@ -123,15 +123,36 @@ figcaption {
     padding: 2px;
 }
 
-figure.city-img {
-    width: 60rem;
-}
-
 /*  element selector */
 img {
     max-width: 100%;
     height: auto;
     display: block;
+}
+
+table {
+    width: 90%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 5px 15px;
+}
+
+th {
+    background-color: #3ab795;
+}
+
+tr:nth-child(even) {
+     background-color: #FFF9D6;
+}
+
+td {
+    vertical-align: bottom;
 }
 
 a:link, a:visited {

@@ -131,7 +131,7 @@ img {
 }
 
 table {
-    width: 90%;
+    width: 100%;
     border-collapse: collapse;
 }
 
@@ -152,7 +152,7 @@ tr:nth-child(even) {
 }
 
 td {
-    vertical-align: bottom;
+    font-size: 0.90rem;
 }
 
 a:link, a:visited {

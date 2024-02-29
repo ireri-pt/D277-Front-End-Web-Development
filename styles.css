@@ -101,7 +101,7 @@ section h3 {
 
 figure {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    width: 800px;
+    width: 710px;
     height: auto;
     margin-top: 30px;
     margin-bottom: 40px;
@@ -148,16 +148,21 @@ th, td {
     padding: 5px 15px;
 }
 
-th {
-    background-color: #3ab795;
-}
-
 tr:nth-child(even) {
      background-color: #FFF9D6;
 }
 
 td {
     font-size: 0.90rem;
+}
+
+tr:hover {
+    color: #f96d4d;
+}
+
+th {
+    background-color: #3ab795;
+    color: white;
 }
 
 a:link, a:visited {
@@ -184,7 +189,7 @@ aside {
     /* float property to position element to the side of another */
     float: right;
     width: 25%;
-    padding: 40px;
+    margin-right: 20px;
     /* relative positioning in at least one area of the web page */
     position: relative;
     z-index: 1;

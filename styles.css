@@ -104,6 +104,20 @@ section h3 {
     margin-top: 50px;
 }
 
+h2.form, h3.form {
+    font-size: 18px;
+}
+
+input {
+    margin-bottom: 2rem;
+    width: 250px;
+}
+
+#qbox {
+    height: 200px;
+    width: 75%;
+}
+
 figure {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     width: 75%;
@@ -209,6 +223,15 @@ aside div {
     padding: 1rem 2rem;
     border: 1px solid #f96d4d;
     border-radius: 12px;
+}
+
+figure.form {
+    width: 100%;
+    margin: 0;
+}
+
+.form figcaption {
+    width: 75%;
 }
 
 p.map {

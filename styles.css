@@ -104,18 +104,24 @@ section h3 {
     margin-top: 50px;
 }
 
+form {
+    padding: 20px;
+    background-color: #FFF9D6;
+    border-radius: 25px;
+}
+
 h2.form, h3.form {
     font-size: 18px;
 }
 
-input {
+input, textarea {
     margin-bottom: 2rem;
-    width: 250px;
+    min-width: 200px;
 }
 
 #qbox {
+    width: 60%;
     height: 200px;
-    width: 75%;
 }
 
 figure {
@@ -145,6 +151,7 @@ figcaption {
 /*  element selector */
 img {
     max-width: 100%;
+    min-width: 200px;
     height: auto;
     display: block;
 }
@@ -244,6 +251,12 @@ p.map {
     font-size: .85rem;
 }
 
+img.social {
+    max-width: 15%;
+    margin-bottom: 2rem;
+    min-width: 50px;
+}
+
 footer {
     width: auto;
     height: 10rem;
@@ -270,4 +283,21 @@ footer p a:link, footer p a:visited {
 footer p a:hover {
     text-decoration: underline;
     color: #f96d4d;
+}
+
+@media screen and (max-width: 1064px) {
+    section, aside {
+        width: 100%;
+        margin: 20px;
+    }
+
+    .container {
+        flex-wrap: wrap;
+    }
+
+    figure {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }

@@ -8,6 +8,7 @@
         <link rel="icon" type="image/x-icon" href="images/favicon.ico">
         <!-- link to external stylesheet -->
         <link rel="stylesheet" href="styles.css">
+        <script src="script.js"></script>
     </head>
     <body>
 
@@ -29,20 +30,21 @@
             <section>
                <h2 class="form">Please complete the form below and we will reach out to you as soon as possible!</h2>
                <form>
-                    <label for="fname">First Name</label><br>
-                    <input type="text" id="fname" name="fname">
+                    <!-- <label for="fname">First Name</label><br> -->
+                    <input type="text" id="firstName" name="firstName" placeholder="First Name">
                     <br>
-                    <label for="lname">Last Name</label><br>
-                    <input type="text" id="lname" name="lname">
+                    <!-- <label for="lname">Last Name</label><br> -->
+                    <input type="text" id="lastName" name="lastName" placeholder="Last Name">
                     <br>
-                    <label for="email">Email Address</label><br>
-                    <input type="email" id="email" name="email">
+                    <!-- <label for="email">Email Address</label><br> -->
+                    <input type="email" id="email" name="email" placeholder="Email">
                     <br>
-                    <label for="emailcon">Confirm Email Address</label><br>
-                    <input type="email" id="emailcon" name="emailcon">
+                    <!-- <label for="emailcon">Confirm Email Address</label><br> -->
+                    <input type="email" id="emailConfirm" name="emailConfirm" placeholder="Confirm Email">
+                    <p id="emailMessage"></p>
                     <br>
-                    <label for="qbox">Enter your comments here:</label><br>
-                    <textarea name="qbox" id="qbox"></textarea>
+                    <!-- <label for="qbox">Enter your comments here:</label><br> -->
+                    <textarea name="qbox" id="qbox" placeholder="Enter your comments/questions here..."></textarea>
                     <br>
                     <br>
                     <input type="submit" value="Submit">
@@ -52,16 +54,19 @@
             <!-- Information related to the content -->
             <aside>
                 <div>
-                    <h3 class="form">Follow us on Social Media</h3>
-                    <a href="https://www.facebook.com/" target="_blank"><img class="social" src="images/facebook_icon.png" alt="Facebook icon"></a>
-                    <a href="https://www.instagram.com/" target="_blank"><img class="social" src="images/instagram_icon.png" alt="Instagram icon"></a>
-                    <a href="https://www.twitter.com/" target="_blank"><img class="social" src="images/x_icon.png" alt="X (the website formerly known as Twitter) icon"></a>
+                    <h3>Follow us on Social Media</h3>
+                    <div class="social">
+                        <a href="https://www.facebook.com/" target="_blank"><img class="social" src="images/facebook_icon.png" alt="Facebook icon"></a>
+                        <a href="https://www.instagram.com/" target="_blank"><img class="social" src="images/instagram_icon.png" alt="Instagram icon"></a>
+                        <a href="https://www.twitter.com/" target="_blank"><img class="social" src="images/x_icon.png" alt="X (the website formerly known as Twitter) icon"></a>
+                    </div>
+                    
                 </div>
                 
-                <div>
+                <div class="form">
                     <figure class="form">
                         <img src="images/surfboards.jpg" alt="Surfboard fence">
-                        <figcaption>Photo by <a href="https://unsplash.com/@tatonomusic?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">tatonomusic</a> on <a href="https://unsplash.com/photos/brown-wooden-clothes-hangers-on-green-plants-FFCgotROOTY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></figcaption>
+                        <figcaption>Photo by <a href="https://unsplash.com/@tatonomusic?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">tatonomusic</a> on <a href="https://unsplash.com/photos/brown-wooden-clothes-hangers-on-green-plants-FFCgotROOTY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank">Unsplash</a></figcaption>
                     </figure>
                 </div>
             </aside>

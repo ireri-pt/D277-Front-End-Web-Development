@@ -117,6 +117,13 @@ h2.form, h3.form {
 input, textarea {
     margin-bottom: 2rem;
     min-width: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+#emailMessage {
+    display: none;
+    font-size: 14px;
 }
 
 #qbox {
@@ -232,15 +239,6 @@ aside div {
     border-radius: 12px;
 }
 
-figure.form {
-    width: 100%;
-    margin: 0;
-}
-
-.form figcaption {
-    width: 75%;
-}
-
 p.map {
     font-size: 12px;
     text-align: center;
@@ -251,10 +249,39 @@ p.map {
     font-size: .85rem;
 }
 
+div.social {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.social a {
+    width: 33%;
+    text-align: center;
+}
+
 img.social {
     max-width: 15%;
-    margin-bottom: 2rem;
     min-width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.form {
+    padding: 0;
+   border: none;
+}
+
+figure.form {
+    width: 100%;
+    margin: 0;
+}
+
+.form figcaption {
+    width: 75%;
 }
 
 footer {
@@ -266,7 +293,7 @@ footer {
     z-index: 2;
     box-shadow: 0 -5px 5px -1px rgba(0,0,0,0.2);
     text-align: center;
-    padding-top: 2rem;
+    padding: 2rem;
 }
 
 footer p {

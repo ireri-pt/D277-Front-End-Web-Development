@@ -208,11 +208,6 @@ a:hover {
     color: #f96d4d;
 }
 
-/* class selector used at least 2 times */
-p.flag {
-    text-align: right;
-}
-
 figure.flag {
     max-width: 32rem;
     float: right;
@@ -249,6 +244,7 @@ p.map {
     font-size: .85rem;
 }
 
+/* class selector used at least 2 times */
 div.social {
     display: flex;
     flex-direction: row;
